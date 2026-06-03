@@ -1,4 +1,4 @@
-import { sword } from "./swords"
+import { swords } from './swords.js'
 
 const defaultPlayer = {
   name: '',
@@ -7,10 +7,8 @@ const defaultPlayer = {
   upgradeMaxHpCost: 200,
   upgradeMaxHp: 20,
   sword: swords[0], 
-  equippedArmor: null,
   gold: 0,
   activatedPromos: [],
-  inventory: []
 }
 
 export function initPlayer(name) {
