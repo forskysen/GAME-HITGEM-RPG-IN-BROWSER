@@ -1,8 +1,8 @@
 // ОТОБРАЖЕНИЕ ПРОФИЛЯ
 
-import { player } from "./state"
-import { bosses } from "./bosses"
-import { sword } from "./swords"
+import { player } from "./state.js"
+import { bosses } from "./bosses.js"
+import { sword } from "./swords.js"
 
 export function checkProfile(player) {
     const playerInfo =

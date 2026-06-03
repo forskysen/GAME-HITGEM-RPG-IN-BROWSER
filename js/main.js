@@ -1,6 +1,6 @@
-export { checkProfile, fightBoss, updatePlayer, settings} from './utilits'
-export { player } from './state'
-export { items } from './items'
+export { checkProfile, fightBoss, updatePlayer, settings} from './utilits.js'
+export { player } from './state.js'
+export { items } from './items.js'
 
 let name = null
 let game = true

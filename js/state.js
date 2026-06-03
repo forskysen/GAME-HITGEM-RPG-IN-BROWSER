@@ -1,4 +1,4 @@
-import { sword } from "./swords"
+import { sword } from "./swords.js"
 
 const defaultPlayer = {
   name: '',
