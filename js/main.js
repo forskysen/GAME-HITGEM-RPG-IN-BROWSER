@@ -1,4 +1,4 @@
-import { checkProfile, fightBoss, updatePlayer, settings} from './utilits.js'
+import { checkProfile, fightBoss, updatePlayer, checkInventory, settings} from './utilits.js'
 import { player, initPlayer } from './state.js'
 import { items } from './items.js'
 
