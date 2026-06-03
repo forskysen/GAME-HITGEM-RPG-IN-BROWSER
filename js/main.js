@@ -1,5 +1,5 @@
 export { checkProfile, fightBoss, updatePlayer, settings} from './utilits.js'
-export { player } from './state.js'
+export { player, initPlayer } from './state.js'
 export { items } from './items.js'
 
 let name = null
