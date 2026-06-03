@@ -1,7 +1,11 @@
 import { swords } from "./swords.js"
 
+export function initPlayer(name) {
+  player.name = name
+}
+
 const defaultPlayer = {
-  name: '',
+  name: name,
   hp: 100,
   max_hp: 100,
   upgradeMaxHpCost: 200,
@@ -11,10 +15,6 @@ const defaultPlayer = {
   gold: 0,
   activatedPromos: [],
   inventory: []
-}
-
-export function initPlayer(name) {
-  player.name = name
 }
 
 const savedPlayer = localStorage.getItem('rpg_player');
