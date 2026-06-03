@@ -1,6 +1,6 @@
-export { checkProfile, fightBoss, updatePlayer, settings} from './utilits.js'
-export { player, initPlayer } from './state.js'
-export { items } from './items.js'
+import { checkProfile, fightBoss, updatePlayer, settings} from './utilits.js'
+import { player, initPlayer } from './state.js'
+import { items } from './items.js'
 
 let name = null
 let game = true
