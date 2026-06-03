@@ -2,7 +2,7 @@
 
 import { player } from "./state.js"
 import { bosses } from "./bosses.js"
-import { sword } from "./swords.js"
+import { swords } from "./swords.js"
 
 export function checkProfile(player) {
     const playerInfo =
